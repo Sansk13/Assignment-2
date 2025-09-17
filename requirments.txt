@@ -6,3 +6,4 @@ pypdf
 transformers
 torch
 flask
+gunicorn
