@@ -1,0 +1,8 @@
+langchain
+langchain-huggingface
+chromadb
+sentence-transformers
+pypdf
+transformers
+torch
+flask
