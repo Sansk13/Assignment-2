@@ -7,3 +7,6 @@ transformers
 torch
 flask
 gunicorn
+langchain-community
+langchain-core
+
