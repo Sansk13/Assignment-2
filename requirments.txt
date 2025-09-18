@@ -2,6 +2,7 @@ langchain
 langchain-huggingface
 chromadb
 sentence-transformers
+pysqlite3-binary
 pypdf
 transformers
 torch
@@ -10,4 +11,3 @@ gunicorn
 langchain-community
 langchain-core
 
-pysqlite3-binary
