@@ -9,7 +9,7 @@ from langchain_huggingface import HuggingFacePipeline
 from transformers import AutoModelForSeq2SeqLM, AutoTokenizer, pipeline
 from langchain_core.runnables import RunnablePassthrough
 from langchain_core.output_parsers import StrOutputParser
-import sqlite3
+
 
 
 
@@ -78,7 +78,7 @@ def initialize_rag_chain():
     retriever = vector_store.as_retriever()
 
     # Initialize the LLM pipeline
-    model_id = "ggoogle/flan-t5-tiny"
+    model_id = "google/flan-t5-base"
     tokenizer = AutoTokenizer.from_pretrained(model_id)
     model = AutoModelForSeq2SeqLM.from_pretrained(model_id)
     pipe = pipeline("text2text-generation", model=model, tokenizer=tokenizer, max_new_tokens=512)
