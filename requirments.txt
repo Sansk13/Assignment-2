@@ -10,3 +10,4 @@ gunicorn
 langchain-community
 langchain-core
 
+pysqlite3-binary
