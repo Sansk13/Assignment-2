@@ -2,7 +2,7 @@ langchain
 langchain-huggingface
 chromadb
 sentence-transformers
-pysqlite3-binary
+pysqlite3
 pypdf
 transformers
 torch
