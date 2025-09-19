@@ -10,4 +10,5 @@ flask
 gunicorn
 langchain-community
 langchain-core
+python_version >=3.10,<3.13
 
